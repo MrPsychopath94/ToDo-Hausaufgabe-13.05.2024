@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#todoListe {
+  list-style: none;
+  padding: 0;
+}
+
+#todoListe li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#todoListe li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#todoListe li.erledigt {
+  text-decoration: line-through;
+}
+
+#todoListe li button {
+  margin-left: auto;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#todoListe li button:hover {
+  background-color: #eee;
+}
+
+* {
+  background-color: #2e282a;
+  color: rgb(255, 255, 255);
+}
